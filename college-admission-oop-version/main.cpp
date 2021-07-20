@@ -144,6 +144,13 @@ void DetermineAdmittedStudents(Student Students[], int NumberOfValidatedStudents
 }
 
 int main() {
+    int NumberOfValidatedStudents = 0;
+    Student Students[NUMBER_OF_STUDENTS];
+
+    SetDetails(Students, NumberOfValidatedStudents);
+    SortStudents(Students, NumberOfValidatedStudents);
+
+    DetermineAdmittedStudents(Students, NumberOfValidatedStudents);
 
     return 0;
 }
