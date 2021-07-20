@@ -93,12 +93,12 @@ clean: CMakeFiles/college_admission_oop_version.dir/clean
 CMakeFiles/college_admission_oop_version.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\college_admission_oop_version.dir\build.make CMakeFiles/college_admission_oop_version.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\college_admission_oop_version.dir\build.make CMakeFiles/college_admission_oop_version.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\git\college-admission-oop-version\college-admission-oop-version\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target college_admission_oop_version"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\git\college-admission-oop-version\college-admission-oop-version\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target college_admission_oop_version"
 .PHONY : CMakeFiles/college_admission_oop_version.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/college_admission_oop_version.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\git\college-admission-oop-version\college-admission-oop-version\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\git\college-admission-oop-version\college-admission-oop-version\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/college_admission_oop_version.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\git\college-admission-oop-version\college-admission-oop-version\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/college_admission_oop_version.dir/rule

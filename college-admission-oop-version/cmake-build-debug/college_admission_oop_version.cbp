@@ -83,6 +83,12 @@
 		<Unit filename="D:/Code/git/college-admission-oop-version/college-admission-oop-version/main.cpp">
 			<Option target="college_admission_oop_version"/>
 		</Unit>
+		<Unit filename="D:/Code/git/college-admission-oop-version/college-admission-oop-version/student.cpp">
+			<Option target="college_admission_oop_version"/>
+		</Unit>
+		<Unit filename="D:/Code/git/college-admission-oop-version/college-admission-oop-version/student.h">
+			<Option target="college_admission_oop_version"/>
+		</Unit>
 		<Unit filename="D:/Code/git/college-admission-oop-version/college-admission-oop-version/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

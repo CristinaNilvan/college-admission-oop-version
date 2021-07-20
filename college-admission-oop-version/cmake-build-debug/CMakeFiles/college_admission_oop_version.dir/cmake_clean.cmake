@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/college_admission_oop_version.dir/main.cpp.obj"
+  "CMakeFiles/college_admission_oop_version.dir/student.cpp.obj"
   "college_admission_oop_version.exe"
   "college_admission_oop_version.exe.manifest"
   "college_admission_oop_version.pdb"
