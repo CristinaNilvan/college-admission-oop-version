@@ -44,16 +44,16 @@ void SortStudents(Student Students[], int NumberOfValidatedStudents) {
             if (Students[i].CalculateCollegeAverage() < Students[j].CalculateCollegeAverage())
                 SwapStudents(Students[i], Students[j]);
             else
-            if (Students[i].CalculateCollegeAverage() == Students[j].CalculateCollegeAverage()) {
-                if (Students[i].GetMathGrade() < Students[j].GetMathGrade())
-                    SwapStudents(Students[i], Students[j]);
-            }
+                if (Students[i].CalculateCollegeAverage() == Students[j].CalculateCollegeAverage()) {
+                    if (Students[i].GetMathGrade() < Students[j].GetMathGrade())
+                        SwapStudents(Students[i], Students[j]);
+                }
         }
     }
 }
 
-void GetAdmittedStudents(Student Students[], int NumberOfValidatedStudents) {
-    for (int i = 0; i < NumberOfValidatedStudents; ++i) {
+void GetAdmittedStudents(Student Students[], int NumberOfAdmittedStudents) {
+    for (int i = 0; i < NumberOfAdmittedStudents; ++i) {
         cout << "Name : " << Students[i].GetName() << " || ";
         cout << "College average : " << Students[i].CalculateCollegeAverage() << endl;
     }
