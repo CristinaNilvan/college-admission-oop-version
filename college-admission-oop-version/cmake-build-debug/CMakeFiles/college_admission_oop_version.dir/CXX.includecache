@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Code/git/college-admission-oop-version/college-admission-oop-version/main.cpp
+iostream
+-
+string
+-
+student.h
+D:/Code/git/college-admission-oop-version/college-admission-oop-version/student.h
+
+D:/Code/git/college-admission-oop-version/college-admission-oop-version/student.cpp
+student.h
+D:/Code/git/college-admission-oop-version/college-admission-oop-version/student.h
+
+D:/Code/git/college-admission-oop-version/college-admission-oop-version/student.h
+string
+-
+
