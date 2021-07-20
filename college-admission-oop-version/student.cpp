@@ -21,6 +21,7 @@ Student::Student(string Name, float ExamGrade, float MathGrade, float BiggestGra
 void Student::SetName(string GivenName) {
     Name = move(GivenName);
 }
+
 string Student::GetName() {
     return Name;
 }
@@ -28,6 +29,7 @@ string Student::GetName() {
 void Student::SetExamGrade(float GivenGrade) {
     ExamGrade = GivenGrade;
 }
+
 float Student::GetExamGrade() {
     return ExamGrade;
 }
@@ -35,6 +37,7 @@ float Student::GetExamGrade() {
 void Student::SetMathGrade(float GivenGrade) {
     MathGrade = GivenGrade;
 }
+
 float Student::GetMathGrade() {
     return MathGrade;
 }
@@ -42,6 +45,7 @@ float Student::GetMathGrade() {
 void Student::SetBiggestGrade(float GivenGrade) {
     BiggestGrade = GivenGrade;
 }
+
 float Student::GetBiggestGrade() {
     return BiggestGrade;
 }
@@ -49,6 +53,7 @@ float Student::GetBiggestGrade() {
 void Student::SetBaccalaureateAverage(float GivenGrade) {
     BaccalaureateAverage = GivenGrade;
 }
+
 float Student::GetBaccalaureateAverage() {
     return BaccalaureateAverage;
 }
@@ -56,6 +61,7 @@ float Student::GetBaccalaureateAverage() {
 void Student::SetMode(int GivenMode) {
     Mode = GivenMode;
 }
+
 float Student::GetMode() {
     return Mode;
 }
